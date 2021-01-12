@@ -3,15 +3,21 @@ Interpretador de Exemplo -- PLP2020
 
 # Gerando o Parser
 
-$ happy Parser.y
+```
+happy Parser.y
+```
 
 # Executando o Interpreter
 
-$ runghc Interpreter.hs
+```
+runghc Interpreter.hs
 2 + 4 <enter>
 <CTRL + D>
-  
+``` 
+ 
 Vai apresentar o resultado: 
 
-$ Just (Num 6)
+```
+Just (Num 6)
+```
 
