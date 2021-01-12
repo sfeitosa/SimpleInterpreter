@@ -1,12 +1,12 @@
 # PLP2020 - Interpretador de Exemplo
 
-*Gerando o Parser*
+**Gerando o Parser**
 
 ```
 happy Parser.y
 ```
 
-*Executando o Interpreter*
+**Executando o Interpreter**
 
 ```
 runghc Interpreter.hs
