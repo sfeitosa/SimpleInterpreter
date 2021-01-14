@@ -20,11 +20,11 @@ Para rodar/testar o interpretador desenvolvido, vamos usar o programa ```runghc`
 runghc Interpreter.hs
 ```
 
-Ao executar este comando, o programa fica aguardando a entrada do usuário, que pode digitar a expressão para ser interpretada. Como exemplo, vamos digitar a expressão ```2 + 4``` e teclar *ENTER*. Para que o resultado seja apresentado, precisamos ainda utilizar as combinações de teclas *CTRL + D*. Estes comandos na sequência são apresentados abaixo.
+Ao executar este comando, o programa fica aguardando a entrada do usuário, que pode digitar a expressão para ser interpretada. Como exemplo, vamos digitar a expressão ```2 + 4``` e teclar *ENTER*. Para que o resultado seja apresentado, precisamos ainda utilizar as combinações de teclas *CTRL + Z* (*CTRL + D* no Linux). Estes comandos na sequência são apresentados abaixo.
 
 ```
 2 + 4 <enter>
-<CTRL + D>
+<CTRL + Z>
 ``` 
 
 Realizado este procedimento, o resultado do processamento do interpretador será apresentado na tela.
