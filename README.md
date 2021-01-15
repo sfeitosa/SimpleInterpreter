@@ -12,19 +12,25 @@ happy Parser.y
 
 Sempre que adicionar/alterar alguma informações no arquivo *Parser.y*, é preciso executar novamente o comando acima.
 
+Caso o sistema apresente mensagem de erro, informando que o comando *Happy* não existe, é preciso instalá-lo no seu sistema. Para isto, basta executar o comando:
+
+```
+stack install happy
+```
+
 **Executando o Interpreter**
 
 Para rodar/testar o interpretador desenvolvido, vamos usar o programa ```runghc```, conforme pode ser visto abaixo.
 
 ```
-runghc Interpreter.hs
+stack runghc Interpreter.hs
 ```
 
 Ao executar este comando, o programa fica aguardando a entrada do usuário, que pode digitar a expressão para ser interpretada. Como exemplo, vamos digitar a expressão ```2 + 4``` e teclar *ENTER*. Para que o resultado seja apresentado, precisamos ainda utilizar as combinações de teclas *CTRL + Z* (*CTRL + D* no Linux). Estes comandos na sequência são apresentados abaixo.
 
 ```
 2 + 4 <enter>
-<CTRL + Z>
+<CTRL + Z> <enter>
 ``` 
 
 Realizado este procedimento, o resultado do processamento do interpretador será apresentado na tela.
